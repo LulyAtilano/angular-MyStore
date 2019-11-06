@@ -122,8 +122,13 @@
               "devServerTarget": "angular-myStore:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "angular-myStore"
 }
